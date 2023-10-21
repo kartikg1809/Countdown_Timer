@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu', sans-serif; /* Apply the Ubuntu font to the entire document */
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    background: url('./images/b3ozgl2xy2u61.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.title{
+    font-size: 3rem;
+    padding-top: 40px;
+}
+.col{
+    width: 80%;
+    max-width: 1000px; 
+    margin: 20px auto; 
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 100px;
+    display: block;
+    margin:40px 40px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #FF5733;
+}
